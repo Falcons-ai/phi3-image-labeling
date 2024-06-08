@@ -26,6 +26,11 @@ This is a basic image description solution to review each image in a directory a
 The Image_desc function processes an image and generates a detailed description using the Phi-3 model.
 
 
+<video width="320" height="240" controls>
+  <source src="/assets/Phi3_image_labeling_2.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## How it works
 
 - Initially it loops through the images directory loading all found images into a list.
