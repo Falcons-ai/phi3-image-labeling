@@ -27,7 +27,7 @@ The Image_desc function processes an image and generates a detailed description 
 
 
 <video width="640" height="480" controls>
-  <source src="assets/Phi3_image_labeling_2.mp4" type="video/mp4">
+  <source src="assets/comp_Phi3_image_labeling_2.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
