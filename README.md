@@ -23,7 +23,9 @@
 This is a basic image description solution to review each image in a directory and provide a description.
 
 ## Overview
-The Image_desc function processes an image and generates a detailed description using the Phi-3 model.
+The run_phi3_vision() function processes an image and generates a detailed description using the Phi-3 model.
+
+The run_florence() function processes an image and generates the results from the Florence-2-base vision model also from Microsoft
 
 
 <video width="640" height="480" controls>
@@ -45,7 +47,7 @@ The Image_desc function processes an image and generates a detailed description 
 
 - The response is the description which gets written to a .txt file with the same name as the corresponding image in the images directory.
 
-
+- The final cell runs a comparison of outputs for the 2 different models and displays the results side by side.
 
 This function is helpful for generating descriptive tags for a large volume of images.
 
@@ -94,6 +96,12 @@ jupyter notebook phi3-image-desc.ipynb
 Image Description #1            |  Image Description #2          |  Image Description #3
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](assets/output0.png)  |  ![](assets/output1.png) |  ![](assets/output2.png)
+
+
+
+## Model Comparison
+![](assets/compare.png)
+
 
 ## Contributing
 Contributions are welcome! If you would like to contribute to this project, please:
